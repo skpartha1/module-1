@@ -1,0 +1,79 @@
+#header-nav {
+	background-color:#4CB5F5;
+	border: 0;
+	margin:0;
+	padding:20px 0 20px 0;
+}
+.navbar-brand h1{
+	font-family: 'Bungee Inline', cursive;
+	color: #B3C100;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: inherit;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+ h2{
+	font-family: 'Bangers', cursive;
+	color: #34675C;
+	font-size: 2em;
+	font-weight: inherit;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 10px;
+	margin-bottom: 0;
+	line-height: .75;
+	text-align: center;
+}
+ p {
+ 	color:black;
+
+	
+}
+#hours{
+	margin-top:20px;
+	background-color: #ff4444;
+	border-radius: 20px;
+}
+.chicken{
+	text-align: center;
+	padding-top: 7px;
+
+}
+
+#meat1 {
+	margin-top:20px;
+	background-color: #ff6600;
+	border-radius: 20px;
+}
+.Beef {
+	text-align: center;
+	padding-top: 7px;
+}
+#meat2 {
+	margin-top:20px;
+	background-color: #0099ff;
+	border-radius: 20px;
+}
+.Sushi {
+	text-align: center;
+	padding-top: 7px;
+}	
+
+.x1{
+	display: none;
+}
+.x2{
+	display: none;
+}
+@media screen and  (max-width: 800px) { /** Header **/
+.x1 {
+	 display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .x2 {
+    display: initial;
+  }
+}
