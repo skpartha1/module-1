@@ -39,6 +39,7 @@
 .chicken{
 	text-align: center;
 	padding-top: 7px;
+	color: black;
 
 }
 
@@ -50,6 +51,7 @@
 .Beef {
 	text-align: center;
 	padding-top: 7px;
+	color: black;
 }
 #meat2 {
 	margin-top:20px;
@@ -59,18 +61,13 @@
 .Sushi {
 	text-align: center;
 	padding-top: 7px;
+	color: black;
 }	
 
-.x1{
-	display: none;
-}
 .x2{
 	display: none;
 }
-@media screen and  (max-width: 800px) { /** Header **/
-.x1 {
-	 display: none;
-}
+
 
 @media screen and (max-width: 550px) {
   .x2 {
